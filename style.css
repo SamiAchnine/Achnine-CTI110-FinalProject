@@ -1,0 +1,22 @@
+* {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+.daniel {
+    width: 60%;
+    height: 50%;
+    background-color: hsl(263, 55%, 52%);
+    margin: left;
+    border-radius: 10px;
+    padding: 25px;
+    color: white;
+    font-size: 13px;
+}
+
+.name {
+    font-size: 18px;
+}
+
+.container {
+    margin: 125px;
+}
