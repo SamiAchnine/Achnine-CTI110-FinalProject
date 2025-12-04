@@ -32,7 +32,6 @@ Users should be able to:
 
 Add a screenshot of your solution. The easiest way to do this is to use Firefox or other browser to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
 
-
 ### Links
 
 - Repository URL: [Add repository URL here](https://your-solution-url.com)
@@ -62,15 +61,17 @@ To see how you can add code snippets, see below:
 ```html
 <h1>Some HTML code I'm proud of</h1>
 ```
+
 ```css
 .proud-of-this-css {
   color: papayawhip;
 }
 ```
+
 ```js
 const proudOfThisFunc = () => {
-  console.log('🎉')
-}
+  console.log("🎉");
+};
 ```
 
 If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
@@ -101,3 +102,8 @@ Use this section to outline areas that you want to continue focusing on in futur
 This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
 
 **Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+
+https://www.w3schools.com/css/css3_fonts.asp
+https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/At-rules/@font-face/font-weight
+https://www.w3schools.com/css/tryit.asp?filename=trycss_inline-block_nav
+https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/box-shadow
