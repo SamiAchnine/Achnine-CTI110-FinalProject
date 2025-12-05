@@ -107,3 +107,4 @@ https://www.w3schools.com/css/css3_fonts.asp
 https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/At-rules/@font-face/font-weight
 https://www.w3schools.com/css/tryit.asp?filename=trycss_inline-block_nav
 https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/box-shadow
+https://css-tricks.com/almanac/properties/f/font-kerning/
