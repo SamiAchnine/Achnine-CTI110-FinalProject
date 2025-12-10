@@ -1,72 +1,95 @@
-* {
+body {
+    padding: 125px 110px;
     font-family: 'Barlow Semi Condensed', sans-serif;
     font-weight: 500;
+    background-color: hsl(214, 17%, 92%);
 }
 
 .top-section {
     display: flex;
-    align-items: left;
+    align-items: center;
+    gap: 17px;
+    margin-bottom: -5px;
+    font-size: 13px;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
     gap: 25px;
 }
-
-#pfp-container img{
-    display: block;
-    max-width: 100%;
-    height: 32px;
-    border-radius: 50%;
-    border: 3px solid hsl(264, 82%, 80%);
-}
-
-.important-testimonial-text {
-    font-size: 25px;
-    font-weight: 600;
-    padding: 0px 0px 20px 0px;
-}
-
-.daniel {
-    display: block;
-    max-width: 45%;
-    height: 50%;
-    background-color: hsl(263, 55%, 52%);
-    margin: left;
-    border-radius: 10px;
+    
+.DANIEL {
+    grid-column: span 2 / span 2;
+    background: hsl(263, 55%, 52%) url("./images/bg-pattern-quotation.svg") no-repeat top right 80px;
+    border-radius: 6px;
     padding: 30px;
     color: white;
     font-size: 13px;
     box-shadow: 15px 10px 15px hsla(219, 29%, 14%, 0.2);
 }
 
-.jonathan {
-    display: block;
-    max-width: 25%;
-    height: auto;
-    background-color: hsl(217, 19%, 35%);
-    margin: left;
-    border-radius: 10px;
+.JONATHAN {
+    grid-column-start: 3;
+    background: hsl(217, 19%, 35%);
+    border-radius: 6px;
     padding: 30px;
-    margin: 00px 40px 0px 40px;
     color: white;
+    font-size: 13px;
+    box-shadow: 15px 10px 15px hsla(219, 29%, 14%, 0.2);
+}
+
+.KIRA {
+    grid-row: span 2 / span 2;
+    grid-column-start: 4;
+    background: white;
+    border-radius: 6px;
+    padding: 30px;
+    font-size: 13px;
+    box-shadow: 15px 10px 15px hsla(219, 29%, 14%, 0.2);
+}
+
+.JEANETTE {
+    grid-row-start: 2;
+    background-color: white;
+    border-radius: 6px;
+    padding: 30px;
+}
+
+.PATRICK {
+    grid-column: span 2 / span 2;
+    grid-row-start: 2;
+    background-color: hsl(219, 29%, 14%);
+    border-radius: 6px;
+    padding: 30px;
+    color: hsl(0, 0%, 81%);
+    font-size: 13px;
+}
+
+.pfp-container img{
+    height: 32px;
+    border-radius: 50%;
+    border: 2px solid hsl(264, 82%, 80%);
+}
+
+.important-testimonial-text {
+    font-size: 25px;
+    font-weight: 600;
+    padding: 0px 0px 20px 0px;
+    padding-top: 5px;
 }
 
 .name{
-    margin-top: -3.5px;
-    font-size: 18px;
-}
-.name p{
-    margin-top: 1.5px;
-    font-size: 15px;
-    color: hsl(0, 0%, 81%)
-}
-
-.container {
-    margin: 125px;
-    display: flex;
-}
-
-.quote-img {
     display: inline-block;
-    margin-left: 25%;
-    margin-top: -4.5%;
+    margin-top: 4px;
+    font-size: 14px;
+}
+
+.name p{
+    margin-top: 3px;
+    opacity: 0.5;
+    font-size: 12px;
 }
 
 .quote {
@@ -74,46 +97,22 @@
     line-height: 22px;
 }
 
-#daniel-testes {
-    margin-top: -32px;
-}
 
 
-@media (max-width: 1000px) {
-    .container {
+@media (max-width: 1050px) {
+    body {
+        padding: 50px 20px;
+    }
+
+    .parent {
+        display: flex;
         flex-direction: column;
-        margin: 25px;
+        gap: 30px;
     }
 
-    .pfp-container {
-        min-width: 48px;
-    }
-
-    .daniel {
-        max-width: 100%;
-        margin: 0px 0px 20px 0px;
-    }
-
-    .jonathan {
-        max-width: 100%;
-        margin: 0px 0px 20px 0px;
-    }
-
-    #daniel-testes {
-        padding: 35px 0px 20px 0px;
-    }
-
-    .important-testimonial-text {
-        font-size: 20px;
-    }
-
-    .quote {
-        font-size: 13.5px;
-        line-height: 18px;
-        color: hsl(214, 17%, 92%)
-    }
-
-    .quote-img {
-        display: none;
+    .DANIEL{
+        background: hsl(263, 55%, 52%);
     }
 }
+
+
