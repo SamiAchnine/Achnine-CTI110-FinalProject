@@ -97,6 +97,16 @@ body {
     line-height: 22px;
 }
 
+.attribution {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    color: hsl(0, 0%, 7%);
+    text-align: center;
+}
+
 
 
 @media (max-width: 900px) {

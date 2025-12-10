@@ -16,8 +16,6 @@
   - [Author](#author)
   - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -41,14 +39,10 @@ Add a screenshot of your solution. The easiest way to do this is to use Firefox 
 
 ### Built with
 
-FILL THIS OUT WITH WHAT YOU USED!!! - Mr. Gardner
-
-- Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
 - CSS Grid
-- Mobile-first workflow
-- [Styled Components](https://styled-components.com/) - For styles
+- Mobile-second workflow (if you use a website primarily on your phone, you deserve nothing in life and should not expect any sort of priority design)
 
 **Note: These are just examples. Delete this note and replace the list above with your own choices**
 
@@ -108,3 +102,4 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/At-rules/@font-face/f
 https://www.w3schools.com/css/tryit.asp?filename=trycss_inline-block_nav
 https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/box-shadow
 https://css-tricks.com/almanac/properties/f/font-kerning/
+https://www.w3schools.com/howto/howto_css_fixed_footer.asp
