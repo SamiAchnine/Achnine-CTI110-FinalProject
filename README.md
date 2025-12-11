@@ -1,59 +1,111 @@
-# CTI-110 Final Project - Testimonials grid section
+# CTI-110 Final Project - Testimonials Grid by Sami Achnine
 
-![Design preview for the Testimonials grid section coding challenge](./preview.jpg)
+## Table of contents
 
-## Welcome! 👋
+- [CTI-110 Final Project - Testimonials Grid by Sami Achnine](#cti-110-final-project---testimonials-grid-by-first-name-last-name)
+  - [Table of contents](#table-of-contents)
+  - [Overview](#overview)
+    - [The challenge](#the-challenge)
+    - [Screenshot](#screenshot)
+    - [Links](#links)
+  - [My process](#my-process)
+    - [Built with](#built-with)
+    - [What I learned](#what-i-learned)
+    - [Continued development](#continued-development)
+    - [Useful resources](#useful-resources)
+  - [Author](#author)
+  - [Acknowledgments](#acknowledgments)
 
-Thanks for checking out this front-end coding challenge.
+## Overview
 
-**To do this challenge, you need a basic understanding of HTML and CSS.**
+This site is a recreation of the below screenshot in HTML/CSS as best as I can get it.
+See the site in the link further down this README.
 
-## The challenge
+### The challenge
 
-Your challenge is to build out this testimonials grid section and get it looking as close to the design as possible.
+Users should be able to:
 
-You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
+- View the optimal layout for the interface depending on their device's screen size
 
-Your users should be able to:
+### Screenshots
 
-- View the optimal layout for the site depending on their device's screen size
+Left: Desktop. Right: Mobile.
 
+<img src="./images/README-ScreenshotDesktop.jpeg" height=500px style="border: 5px solid grey; border-radius: 10px;">
+<img src="./images/README-ScreenshotMobile.jpeg" height=500px style="border: 5px solid grey; border-radius: 10px;">
 
-## Where to find everything
+### Links
 
-Your task is to build out the project to the designs inside the `/design` folder. You will find both a mobile and a desktop version of the design. 
+- Repository URL: [https://github.com/SamiAchnine/Achnine-CTI110-FinalProject](https://github.com/SamiAchnine/Achnine-CTI110-FinalProject)
+- Live Site URL: [https://samiachnine.github.io/Achnine-CTI110-FinalProject/](https://samiachnine.github.io/Achnine-CTI110-FinalProject/)
 
-The designs are in JPG static format. Using JPGs will mean that you'll need to use your best judgment for styles such as `font-size`, `padding` and `margin`. 
+## My process
 
-You will find all the required assets in the `/images` folder. The assets are already optimized.
+### Built with
 
-There is also a `style-guide.md` file containing the information you'll need, such as color palette and fonts.
+- CSS custom properties
+- Flexbox (...for mobile view)
+- CSS Grid (...for desktop view)
+- Workflow that keeps mobile users in mind
 
-## Building your project
+#### _A NOTE ABOUT AI:_
 
-Feel free to use any workflow that you feel comfortable with. Below is a suggested process, but do not feel like you need to follow these steps:
+No AI was used in the making of this website.
 
-1. Initialize your project as a public repository on [GitHub](https://github.com/). Creating a repo will make it easier to share your code with the community if you need help. If you're not sure how to do this, [have a read-through of this Try Git resource](https://try.github.io/).
-2. Configure your repository to publish your code to a web address. This will also be useful if you need some help during a challenge as you can share the URL for your project with your repo URL. There are a number of ways to do this, and we provide some recommendations below.
-3. Look through the designs to start planning out how you'll tackle the project. This step is crucial to help you think ahead for CSS classes to create reusable styles.
-4. Before adding any styles, structure your content with HTML. Writing your HTML first can help focus your attention on creating well-structured content.
-5. Write out the base styles for your project, including general content styles, such as `font-family` and `font-size`.
-6. Start adding styles to the top of the page and work down. Only move on to the next section once you're happy you've completed the area you're working on.
+### What I learned
 
-## Deploying your project
+The structure of my HTML code is what I'm most proud of, more specifically how well organized the code turned out with all the div tags inside each other. I'm also quite proud of this segment:
 
-Deploy your site through GitHub Pages.
+```html
+<link
+  rel="stylesheet"
+  href="https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed"
+/>
+```
 
-## Create a custom `README.md`
+To get the font, usually people pull the .ttf file from the same server that the site itself is hosted on, and then link it in the CSS that way. However, that solution is way more complicated than it needs to be, as you can put this link in the html, then use the font like any other built-in font! Very simple and very epic.
 
-You must overwrite this `README.md` with a custom one. We've provided a template inside the [`README-template.md`](./README-template.md) file in this starter code.
+My favorite CSS snippets!
 
-The template provides a guide for what to add. A custom `README` will help you explain your project and reflect on your learnings. Please feel free to edit our template as much as you like.
+```css
+.parent {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 25px;
+}
+/* This section of CSS handles the grid layout for the entire Desktop site. Thanks to a tool I found online, this code was copy-pasted into the site easy peasy! */
+.DANIEL {
+  grid-column: span 2 / span 2;
+  background: hsl(263, 55%, 52%) url("./images/bg-pattern-quotation.svg") no-repeat
+    top right 80px;
+  border-radius: 6px;
+  padding: 30px;
+  color: white;
+  font-size: 13px;
+  box-shadow: 15px 10px 15px hsla(219, 29%, 14%, 0.2);
+}
+/* Daniel is the only person who has the quote image in their testimonials box, and I learned thanks to Mithun that you can put images directly into your CSS. Super helpful, since I had spent approxomately 90 minutes across multiple classes trying to get the image in the right spot with HTML. */
+```
 
-Once you've added your information to the template, delete this file and rename the `README-template.md` file to `README.md`. That will make it show up as your repository's README file.
+### Continued development
 
-## Submitting your solution
+Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
 
-Submit your live site link and repo link on Blackboard for grading. 
+**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
 
-**Have fun building!** 🚀
+### Useful resources
+
+- [Fonts in CSS - W3Schools](https://www.w3schools.com/css/css3_fonts.asp) - This source just gave me a bunch of tips on how to link TTF fonts to CSS. I didn't end up using it, as the Google Fonts solution worked better for me, but in the future if I need it I will use this source.
+- [Mozilla Developer Resources - Font Weight](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/At-rules/@font-face/font-weight) - Font weight is really weird. Thankfully, the Google fonts API lets you get any font weight, but the style guide only permits 500 and 600. Learning how to import the correct font weight (before I changed to the Google Fonts API) is very important.
+- [inline-block Resource - W3Schools](https://www.w3schools.com/css/tryit.asp?filename=trycss_inline-block_nav) - Whoever invented inline-block needs to be sent to the furthest reaches of the universe, never to be seen again. Even after reading this entire page and taking in the knowledge, inline-block still doesn't work properly for me, but maybe I will eventually learn after rereading it for the 83rd time.
+- [Mozilla Developer Resources - box-shadow](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/box-shadow) - box-shadow is really cool, and I noticed a very subtle drop shadow from each box in the original image, so learning how to use box-shadow is important to make that happen in the final page. This page is helpful in seeing how many parameters you need.
+- [CSS Trick - Font Kerning](https://css-tricks.com/almanac/properties/f/font-kerning/) - Kerning is an important part of typeface design, and despite the fact that, in the end, I didn't need to change the kerning for any text, knowing how to modify the font kerning in HTML is very helpful. Glad I learned this.
+- [How to make a fixed footer in CSS - W3Schools](https://www.w3schools.com/howto/howto_css_fixed_footer.asp) - At the very end of the project, I realized that my footer was all wrong and messed up, so I ended up sticking it back to where it belonged. This page was very helpful in finding the right CSS rules to implement.
+
+## Author
+
+- Personal Website - [Click!](https://wecib-juniors.github.io/personal-website-project-SamiAchnine/)
+- Github Profile - [Click!](https://github.com/SamiAchnine)
+
+## Acknowledgments
