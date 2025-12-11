@@ -90,9 +90,7 @@ My favorite CSS snippets!
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+I will absolutely be using this project as reference for the various things that I will need to do in the future with CSS. This entire project was basically me getting better at CSS, so if I ever need to make flexbox-based sites or grid-based sites, I will cross reference what I wrote instead of Google or AI.
 
 ### Useful resources
 
@@ -102,6 +100,7 @@ Use this section to outline areas that you want to continue focusing on in futur
 - [Mozilla Developer Resources - box-shadow](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/box-shadow) - box-shadow is really cool, and I noticed a very subtle drop shadow from each box in the original image, so learning how to use box-shadow is important to make that happen in the final page. This page is helpful in seeing how many parameters you need.
 - [CSS Trick - Font Kerning](https://css-tricks.com/almanac/properties/f/font-kerning/) - Kerning is an important part of typeface design, and despite the fact that, in the end, I didn't need to change the kerning for any text, knowing how to modify the font kerning in HTML is very helpful. Glad I learned this.
 - [How to make a fixed footer in CSS - W3Schools](https://www.w3schools.com/howto/howto_css_fixed_footer.asp) - At the very end of the project, I realized that my footer was all wrong and messed up, so I ended up sticking it back to where it belonged. This page was very helpful in finding the right CSS rules to implement.
+- [CSS Grid Generator](https://cssgridgenerator.io/) - I tried using Flexboxes to make the CSS layout, but since Kira's box is longer than all the others, I had to make a grid. The code this site made was absolutely amazing in helping me make the site, and in all, after implementing the grid, work sped up by many times.
 
 ## Author
 
@@ -109,3 +108,7 @@ Use this section to outline areas that you want to continue focusing on in futur
 - Github Profile - [Click!](https://github.com/SamiAchnine)
 
 ## Acknowledgments
+
+Mithun P. -- Helped a lot with implementing the grid layout.
+Mr. Gardner -- Helped me with the mobile and all the shenanigans that mobile brings.
+Beatrice K. -- Helped me yell at CSS for being bad and annoying.
