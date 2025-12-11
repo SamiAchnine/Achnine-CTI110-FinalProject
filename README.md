@@ -110,5 +110,7 @@ I will absolutely be using this project as reference for the various things that
 ## Acknowledgments
 
 Mithun P. -- Helped a lot with implementing the grid layout.
+
 Mr. Gardner -- Helped me with the mobile and all the shenanigans that mobile brings.
+
 Beatrice K. -- Helped me yell at CSS for being bad and annoying.
